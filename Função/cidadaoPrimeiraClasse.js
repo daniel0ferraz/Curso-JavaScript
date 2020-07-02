@@ -23,10 +23,9 @@ function run(fun) {
 run(function () { console.log('Executando...') })
 
 // Uma função pode retornar/conter um funcao
-
 function some(a, b) {
-    return function(c) {
+    return function (c) {
         console.log(a + b + c )
     }
 }
-SVGZoomAndPan(2, 3)(4)
+some(2, 3)(4)
