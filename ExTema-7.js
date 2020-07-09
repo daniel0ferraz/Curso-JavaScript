@@ -15,5 +15,3 @@ while (cont <= 10) {
     cont = cont + 1
 }
 console.log('o valor de =>'+s)
-
- 
