@@ -1,12 +1,12 @@
-const valor = 'Global'
+const valor = 'Global';
 
-function minhaFuncao(){
-    console.log(valor)
+function minhaFuncao() {
+  console.log(valor);
 }
 
-function exec(){
-    const valor = 'Local'
-    munhaFuncao()
+function exec() {
+  const valor = 'Local';
+  munhaFuncao();
 }
 
-exec() 
+exec();

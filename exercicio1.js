@@ -1,9 +1,11 @@
-const prestacoes = 5
-let valortotal
-let valprestacoes
+const prestacoes = 5;
+let valortotal;
+let valprestacoes;
 
-valortotal = 200
+valortotal = 200;
 
-valprestacoes = valortotal/prestacoes
+valprestacoes = valortotal / prestacoes;
 
-console.log(`valtotal das prestações ${prestacoes} x de ${valprestacoes}, compra ${valortotal}`)
+console.log(
+  `valtotal das prestações ${prestacoes} x de ${valprestacoes}, compra ${valortotal}`
+);

@@ -1,12 +1,13 @@
-const media = 0
-function notas(n1, n2){
-       media = n1 + n2 / 2
-    if (notas > 7){
-        console.log(`Aprovado media: ${media}`)
-    } else {
-        console.log('Reprovado')
-    }
+function notas(n1, n2, n3) {
+  let media = (n1 + n2 + n3) / 3;
+  return media;
 }
 
-notas(8 , 7)
-console.log(media)
+if (notas() >= 7) {
+  console.log('Aprovado');
+} else {
+  console.log('Reprovado');
+}
+
+console.log(notas(8, 7, 8));
+
