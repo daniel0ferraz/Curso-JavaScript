@@ -19,4 +19,3 @@ console.log(notasBaixas2)
 
 // Callback com arrow
 
-cosnt 
