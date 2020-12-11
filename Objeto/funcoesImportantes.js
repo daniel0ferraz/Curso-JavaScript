@@ -3,13 +3,13 @@ const pessoa = {
   idade: 2,
   peso: 13,
 };
+
 //Pega todas as chaves do objeto
 console.log(Object.keys(pessoa));
-//todos dos valores do objeto
+//todos dos valores do objeto 
 console.log(Object.values(pessoa));
 // retorna array com todos os elementos > subarray com chaves e elementos!
 console.log(Object.entries(pessoa));
-
 // pegar reistros do objerto ->
 
 // percorrer
