@@ -33,7 +33,7 @@ function criarFuncionario(nome, salariobase, faltas) {
 }
 
 const f1 = criarFuncionario("Daniel", 7980,2)
-//console.log(f1)
+console.log(f1)
 console.log(f1.getSalario())
 
 // Objetc.create
