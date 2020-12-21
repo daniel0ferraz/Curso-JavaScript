@@ -15,6 +15,5 @@ function Aluno(nome, matricula, n1, n2, n3, media) {
 }
 
 const a1 = new Aluno("Daniel", 2020100646, 4, 9, 10)
-console.log(a1)
-
-
+const a2 = new Aluno("Felipe",2020100647, 8, 7, 8 )
+console.log(a1, a2)
