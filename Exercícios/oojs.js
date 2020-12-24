@@ -20,3 +20,12 @@ console.log(pessoa)
 pessoa['olhos'] = 'castanhos escuros';
 pessoa.idade = 18;
 console.log(pessoa)
+
+pessoa[myDataName] = myDataValue;
+
+var myDataName = 'altura';
+var myDataValue = '1.75m';
+pessoa[myDataName] = myDataValue;
+
+pessoa.altura
+
