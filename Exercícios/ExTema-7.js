@@ -6,12 +6,11 @@
 
 // Faca um algoritmo que imprima a soma dos 10 pri,eiros números positivos
 
-
-var s = 0
-var cont = 1
+var s = 0;
+var cont = 1;
 
 while (cont <= 10) {
-    s = s + cont
-    cont = cont + 1
+  s = s + cont;
+  cont = cont + 1;
 }
-console.log('o valor de =>'+s)
+console.log('o valor de =>' + s);

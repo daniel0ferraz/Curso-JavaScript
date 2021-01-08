@@ -1,7 +1,5 @@
 function multplica(num1, num2) {
-    let resutado = num1 * num2
-    return resutado
+  return (resutado = num1 * num2);
 }
 
-console.log(multplica(6, 6))
-
+multplica(6, 6);
