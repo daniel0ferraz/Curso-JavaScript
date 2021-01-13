@@ -1,3 +1,7 @@
-Pasta do curso JAVA Script
+## Sobre este curso 
 
-* Aprendendo sobre Fundamentos básicos da Linguagem JavaScript;
+* Domine Web, 14 Cursos + Projetos, Javascript, Angular, React, Vue, Node, HTML, CSS, jQuery, Bootstrap Webpack Gulp MySQL
+
+### Udemy 
+
+https://www.udemy.com/course/curso-web/
