@@ -4,7 +4,7 @@ const Contabancaria = {
     agencia: 'Nupagamentos',
     saldo: 1000.00
 
-    function transacoes(opcao, valor) {
+    get transacoes(opcao, valor) {
 
         switch(opcao) {
             case 1:
