@@ -29,7 +29,7 @@ var veiculos = [{
 
 
 function addVeiculo() {
-   const vagaveiculo = Veiculo;
+   const vagaveiculo = Veiculo.placa;
    
 }
 
