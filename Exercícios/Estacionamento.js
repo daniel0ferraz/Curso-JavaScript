@@ -1,18 +1,36 @@
-var veiculo = [{
+var veiculos = [{
     modelo: 'Toyota Hilux srv',
     placa: 'qwq-3025',
-    cor: 'Preta'
+    cor: 'Preta',
+    preco: 230.000
 },
 {
     modelo: 'Hiunday Elantra',
     placa: 'qjv-3025',
-    cor: 'Vermelho' 
+    cor: 'Vermelho',
+    preco: 150.000,
 },{
     modelo: 'S-10 highcountry',
     placa: 'jqj-2865',
-    cor: 'Prata'
+    cor: 'Prata',
+    preco: 180.000
+}, {
+    modelo: 'Mitsubish Pajero',
+    placa: 'mjj-5899',
+    cor: 'Chumbo',
+    preco: 80.000
+},{
+    modelo: 'Fiat Palio',
+    placa: 'mas-5829',
+    cor: 'Cinza',
+    preco: 40.000
+
 }];
 
 console.log(veiculo)
 veiculo.modelo
+
+const Apenasmodelo = veiculo => veiculo.modelo
+const Nplaca = veiculo => veiculo.preco 
+console.log(veiculos.filter(Apenasmodelo).filter(Nplaca))
 
