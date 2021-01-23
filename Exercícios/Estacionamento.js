@@ -13,7 +13,7 @@ var veiculos = [{
     modelo: 'S-10 highcountry',
     placa: 'jqj-2865',
     cor: 'Prata',
-    preco: 180.000
+    preco: 180.000 
 }, {
     modelo: 'Mitsubish Pajero',
     placa: 'mjj-5899',
@@ -27,8 +27,14 @@ var veiculos = [{
 
 }];
 
-console.log(veiculo)
-veiculo.modelo
+
+function addVeiculo() {
+   const vagaveiculo = Veiculo;
+   
+}
+
+console.log(veiculos)
+veiculos.modelo
 
 const Apenasmodelo = veiculo => veiculo.modelo
 const Nplaca = veiculo => veiculo.preco 
