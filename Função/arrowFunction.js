@@ -16,3 +16,9 @@ let ola = function() {
 ola = () => 'Olá';
 ola = _=> 'Olá'; // possui um param
 console.log(ola());
+
+media = (n1, n2, n3) => {
+    return n1+n2+n3/ media;
+}
+
+media(9,8,7)
