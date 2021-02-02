@@ -1,1 +1,1 @@
-const months = ['jan, ']
+const months = ['jan']
