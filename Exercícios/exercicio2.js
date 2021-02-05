@@ -10,7 +10,7 @@
 // console.log(`Aumento: ${aumento}`);
 // console.log(`Salario final: ${salfinal}`);
 
-function Salfinal(salario, aumento)  {
+function Salfinal(salario, aumento) {
     return (salario + aumento) / 100;
 
 }
