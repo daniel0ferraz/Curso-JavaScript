@@ -38,5 +38,7 @@ veiculos.modelo
 
 const Apenasmodelo = veiculo => veiculo.modelo
 const Nplaca = veiculo => veiculo.preco 
+const Cores = veiculo => veiculo.cor
 console.log(veiculos.filter(Apenasmodelo).filter(Nplaca))
+console.log(veiculos.filter(Cores))
 
