@@ -8,6 +8,6 @@ class Alunos {
     }
 }
 
-const aluno1 = new Alunos("Daniel Ferraz", "Masculino", "Ciência da Computação", "Mq de Barbacena", 21999250152);
-const aluno2  = new Alunos("Maria Tereza", "Feminino", "Pedagogia", "Hel fonseca", 7399542211);
-console.log(aluno1, aluno2)
+
+const aluno1  = new Alunos("Maria Tereza", "Feminino", "Pedagogia", "ABC", 7399542211);
+console.log(aluno1)
