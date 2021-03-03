@@ -12,6 +12,6 @@ const Sequencia = {
 
 console.log(Sequencia.valor, Sequencia.valor);
 Sequencia.valor = 1000;
-console.log(Sequencia.valor, Sequencia.valor)
-Sequencia.valor = 900
-console.log(Sequencia.valor, Sequencia.valor)
+console.log(Sequencia.valor, Sequencia.valor);
+Sequencia.valor = 900;
+console.log(Sequencia.valor, Sequencia.valor);

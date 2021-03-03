@@ -7,7 +7,7 @@ const obj2 = { a, b, c };
 
 console.log(obj1, obj2);
 
-const nomeAttr = 'nota';
+const nomeAttr = "nota";
 const valorAttr = 7.87;
 
 const obj3 = {};

@@ -1,49 +1,51 @@
-//coleção dinamica de pares chave/valor 
-const produto = new Object
-produto.nome = 'Cadeira';
-produto['marca do produto'] = 'generica';
+//coleção dinamica de pares chave/valor
+const produto = new Object();
+produto.nome = "Cadeira";
+produto["marca do produto"] = "generica";
 produto.preco = 220;
 
-console.log(produto)
+console.log(produto);
 
 // deletar dinamicamente
-delete produto['marca do produto'];
-console.log(produto)
+delete produto["marca do produto"];
+console.log(produto);
 
 const carro = {
-  modelo: 'A4',
+  modelo: "A4",
   valor: 89000,
   propietario: {
-    nome: 'Daniel',
+    nome: "Daniel",
     idade: 21,
     endereco: {
-      logradouro: 'Rua 123',
+      logradouro: "Rua 123",
       numero: 81,
-      bairro: 'Centro'
-    }
+      bairro: "Centro",
+    },
   },
-  condutores: [{
-    nome: 'Junior',
-    idade: 19,
+  condutores: [
+    {
+      nome: "Junior",
+      idade: 19,
+    },
+    {
+      nome: "Ana",
+      idade: 42,
+    },
+  ],
 
-  }, {
-    nome: 'Ana',
-    idade: 42
-  }],
-
-  calcularValorSeguro: function() {
+  calcularValorSeguro: function () {
     //...
-  }
-}
+  },
+};
 
 carro.propietario.endereco.numero = 1000;
-console.log(carro)
+console.log(carro);
 
 //delete carro.condutores
-delete carro.propietario.endereco
-delete carro.calcularValorSeguro 
-console.log(carro)
+delete carro.propietario.endereco;
+delete carro.calcularValorSeguro;
+console.log(carro);
 
-console.log(carro)
-console.log(carro.condutores)
-console.log(carro.condutores.length)
+console.log(carro);
+console.log(carro.condutores);
+console.log(carro.condutores.length);
