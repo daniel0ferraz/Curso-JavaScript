@@ -1,0 +1,24 @@
+{
+  "name": "Curso-JavaScript",
+  "version": "1.0.0",
+  "description": "* Domine Web, 14 Cursos + Projetos, Javascript, Angular, React, Vue, Node, HTML, CSS, jQuery, Bootstrap Webpack Gulp MySQL",
+  "main": "global.js",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel0ferraz/Curso-JavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel0ferraz/Curso-JavaScript/issues"
+  },
+  "homepage": "https://github.com/daniel0ferraz/Curso-JavaScript#readme"
+}
