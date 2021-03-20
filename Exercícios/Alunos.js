@@ -6,8 +6,21 @@ class Alunos {
         this.endereco = endereco;
         this.telefone = telefone;
     }
+
+    setNome = () => {
+
+    }
+    setMaticula = () => {
+
+    }
+    getNome = () => {
+        return this.nome;
+    }
+    getMatricula = () => {
+        return this.nome;
+    }
 }
 
 
-const aluno1  = new Alunos("Maria Tereza", "Feminino", "Pedagogia", "ABC", 7399542211);
+const aluno1 = new Alunos("Maria Tereza", "Feminino", "Pedagogia", "ABC", 7399542211);
 console.log(aluno1)
