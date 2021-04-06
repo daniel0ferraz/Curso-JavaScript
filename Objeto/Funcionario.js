@@ -5,7 +5,7 @@ class Funcionario {
     this.horasTrabalhadas = horasTrabalhadas;
   }
 
-  setNome() {
+  setNome(nome) {
     this.nome = nome;
   }
 
@@ -37,21 +37,19 @@ class Gerente extends Funcionario {
   }
 }
 
-class Pagamento {
-  constructor() {
-    const g1 = new Gerente()
-    g1.setNome("Daniel Ferraz")
-    g1.setHorasTrab(250)
-    g1.valorHora(150)
-    g1.setBonus(1000)
-    console.log(g1.getNome(), g1.calculaSalario())
 
-    const f1 = new Funcionario()
-    f1.setNome("Maria Tereza")
-    f1.setHorasTrab(250)
-    f1.setValorHora(80)
-    console.log(`${f1.getNome()} tem o salario R$ ${f1.calculaSalario()}`)
-  }
-}
+const g1 = new Gerente()
+g1.setNome("Daniel Ferraz")
+g1.setHorasTrab(250)
+g1.valorHora(150)
+g1.setBonus(1000)
+console.log(g1.getNome(), g1.calculaSalario())
+
+const f1 = new Funcionario()
+f1.setNome("Maria Tereza")
+f1.setHorasTrab(250)
+f1.setValorHora(80)
+console.log(`${f1.getNome()} tem o salario R$ ${f1.calculaSalario()}`)
+
 
 

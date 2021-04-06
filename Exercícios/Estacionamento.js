@@ -9,17 +9,17 @@ var veiculos = [{
     placa: 'qjv-3025',
     cor: 'Vermelho',
     preco: 150.000,
-},{
+}, {
     modelo: 'S-10 highcountry',
     placa: 'jqj-2865',
     cor: 'Prata',
-    preco: 180.000 
+    preco: 180.000
 }, {
     modelo: 'Mitsubish Pajero',
     placa: 'mjj-5899',
     cor: 'Chumbo',
     preco: 80.000
-},{
+}, {
     modelo: 'Fiat Palio',
     placa: 'mas-5829',
     cor: 'Cinza',
@@ -29,15 +29,15 @@ var veiculos = [{
 
 
 function addVeiculo() {
-   const vagaveiculo = Veiculo.placa;
-   
+    const vagaveiculo = Veiculo.placa;
+
 }
 
 console.log(veiculos)
 veiculos.modelo
 
 const Apenasmodelo = veiculo => veiculo.modelo
-const Nplaca = veiculo => veiculo.preco 
+const Nplaca = veiculo => veiculo.preco
 const Cores = veiculo => veiculo.cor
 console.log(veiculos.filter(Apenasmodelo).filter(Nplaca))
 console.log(veiculos.filter(Cores))

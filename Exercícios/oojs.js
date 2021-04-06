@@ -5,9 +5,9 @@ var pessoa = {
     interesses: ['musicas, ciclismo, aventuras'],
 
     bio() {
-        console.log(this.nome +' Tem '+ this.idade+ ", é do sexo "+this.sexo+" possui os seguintes interesses"+this.interesses)
+        console.log(this.nome + ' Tem ' + this.idade + ", é do sexo " + this.sexo + " possui os seguintes interesses" + this.interesses)
     }, suadacao() {
-        console.log('Olá, sou o '+this.nome + '!')
+        console.log('Olá, sou o ' + this.nome + '!')
     }
 };
 

@@ -20,6 +20,7 @@ class Alunos {
     getMatricula = () => {
         return this.matricula;
     }
+
 }
 
 
