@@ -5,19 +5,19 @@ class Funcionario {
     this.horasTrabalhadas = horasTrabalhadas;
   }
 
-  setNome(nome) {
+  setNome = () => {
     this.nome = nome;
   }
 
-  setValorHora() {
+  setValorHora = () => {
     this.valorHora = valorHora;
   }
 
-  setHorasTrab() {
+  setHorasTrab = () => {
     this.horasTrabalhadas = horasTrabalhadas;
   }
 
-  calculaSalario = () => {
+  getcalculaSalario = () => {
     return this.valorHora * this.horasTrabalhadas;
   }
 }
@@ -28,11 +28,11 @@ class Gerente extends Funcionario {
     this.bonus = bonus;
   }
 
-  setBonus() {
+  setBonus = () => {
     this.bonus = bonus;
   }
 
-  calculaSalario() {
+  getcalculaSalario = () => {
     return this.valorHora * this.horasTrabalhadas + this.bonus
   }
 }

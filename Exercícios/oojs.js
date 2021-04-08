@@ -14,7 +14,7 @@ var pessoa = {
 pessoa.bio();
 pessoa.suadacao();
 pessoa.idade
-console.log(pessoa)
+console.log(pessoa.suadacao())
 
 //podemos também setar (atualizar) o valor de membros de objetos simplesmente declarando o membro que queremos setar (usando notação de ponto ou colchete), tipo assim:
 pessoa['olhos'] = 'castanhos escuros';

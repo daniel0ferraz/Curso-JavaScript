@@ -25,5 +25,4 @@ class Alunos {
 
 
 const aluno1 = new Alunos("Tereza", "Feminino", "Pedagogia", "ABC", 7399542211, 2020100646);
-console.log(aluno1)
 console.log(`O Aluno(a): ${aluno1.getNome()}, possui a matricula:${aluno1.getMatricula()}`)
