@@ -1,5 +1,5 @@
 class Lancamento {
-  constructor(nome = "Generico", valor = 0) {
+  constructor(nome = 'Generico', valor = 0) {
     this.nome = nome;
     this.valor = valor;
   }
@@ -25,8 +25,8 @@ class CicloFinanceiro {
   }
 }
 
-const salario = new Lancamento("Salario", 45000);
-const contaDeLuz = new lancamento("Luz", -200);
+const salario = new Lancamento('Salario', 45000);
+const contaDeLuz = new lancamento('Luz', -200);
 
 const contas = new CicloFinanceiro(6, 2021);
 contas.addLancamentos(salario, contaDeLuz);

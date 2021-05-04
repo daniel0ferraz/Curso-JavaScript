@@ -16,8 +16,8 @@ function Produto(nome, preco, desc) {
   };
 }
 
-const p1 = new Produto("Caneca", 7.0, 0.15);
-const p2 = new Produto("Notebook", 2998.99, 0.25);
+const p1 = new Produto('Caneca', 7.0, 0.15);
+const p2 = new Produto('Notebook', 2998.99, 0.25);
 console.log(p1.getPrecoComDesconto(), p2.getPrecoComDesconto());
 
 // Função factory
@@ -32,11 +32,11 @@ function criarFuncionario(nome, salariobase, faltas) {
   };
 }
 
-const f1 = criarFuncionario("Daniel", 7980, 2);
+const f1 = criarFuncionario('Daniel', 7980, 2);
 //console.log(f1)
 console.log(f1.getSalario());
 
 // Objetc.create
 const filha = Object.create(null);
-filha.nome = "amanda";
+filha.nome = 'amanda';
 console.log(filha);

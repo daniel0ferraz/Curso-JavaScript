@@ -4,6 +4,7 @@
   "description": "* Domine Web, 14 Cursos + Projetos, Javascript, Angular, React, Vue, Node, HTML, CSS, jQuery, Bootstrap Webpack Gulp MySQL",
   "main": "global.js",
   "dependencies": {
+    "jshint": "^2.12.0",
     "lodash": "^4.17.20",
     "node-schedule": "1.3.0"
   },
