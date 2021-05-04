@@ -24,5 +24,22 @@ class Alunos {
 }
 
 
+class Alunos extends Boletim {
+    constructor(n1, n2, n3) {
+        this.n1 = n1;
+        this.n2 = n2;
+        this.n3 = n3;
+    }
+
+    // Media(media) {
+    //     return (n1 + n2 + n3) / media;
+    // }
+}
+
+
+//Class Aluno herda Boletim
+console.log(Boletim)
+
+
 const aluno1 = new Alunos("Tereza", "Feminino", "Pedagogia", "ABC", 7399542211, 2020100646);
 console.log(`O Aluno(a): ${aluno1.getNome()}, possui a matricula:${aluno1.getMatricula()}`)
