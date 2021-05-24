@@ -31,9 +31,9 @@ class Alunos extends Boletim {
         this.n3 = n3;
     }
 
-    // Media(media) {
-    //     return (n1 + n2 + n3) / media;
-    // }
+    Media(media) {
+        return (n1 + n2 + n3) / media;
+    }
 }
 
 
