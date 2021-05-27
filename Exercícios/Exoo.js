@@ -10,6 +10,7 @@ const pessoa = {
     complemento: 'casa',
     estado: 'Bahia',
   },
+  
   moradores: [
     {
       nome: 'Sidelvan',
@@ -40,13 +41,14 @@ const pessoa = {
 };
 console.log(pessoa.moradores.length);
 console.log(pessoa.moradores);
-console.log(pessoa);
+console.log(pessoa.moradores);
 
-Produto = {
-  nome: 'Toner',
-  valor: 20.00,
-  quantidade: 6
-}
 
-console.log(Produto.valor * Produto.quantidade)
+// Produto = {
+//   nome: 'Toner',
+//   valor: 20.00,
+//   quantidade: 6
+// }
+
+// console.log(Produto.valor * Produto.quantidade)
 
