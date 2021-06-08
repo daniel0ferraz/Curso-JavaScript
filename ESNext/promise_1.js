@@ -17,5 +17,7 @@ let pessoas = new Promise(function (exibirPessoas) {
 
 pessoas.then(function (exibir) {
     console.log(exibir)
+    console.log(exibir)
+    console.log(exibir)
 })
 
